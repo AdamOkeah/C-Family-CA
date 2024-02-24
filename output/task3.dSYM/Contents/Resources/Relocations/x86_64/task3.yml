@@ -1,0 +1,15 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/AdamO/C Family CA/output/task3'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _msSetString, symObjAddr: 0x0, symBinAddr: 0x1000038B0, symSize: 0x80 }
+  - { offsetInCU: 0x47, offset: 0x47, size: 0x8, addend: 0x0, symName: _msSetString, symObjAddr: 0x0, symBinAddr: 0x1000038B0, symSize: 0x80 }
+  - { offsetInCU: 0x8B, offset: 0x8B, size: 0x8, addend: 0x0, symName: _msError, symObjAddr: 0x80, symBinAddr: 0x100003930, symSize: 0x30 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _msGetString, symObjAddr: 0xB0, symBinAddr: 0x100003960, symSize: 0x70 }
+  - { offsetInCU: 0xF3, offset: 0xF3, size: 0x8, addend: 0x0, symName: _msCopy, symObjAddr: 0x120, symBinAddr: 0x1000039D0, symSize: 0x90 }
+  - { offsetInCU: 0x141, offset: 0x141, size: 0x8, addend: 0x0, symName: _msLength, symObjAddr: 0x1B0, symBinAddr: 0x100003A60, symSize: 0x20 }
+  - { offsetInCU: 0x177, offset: 0x177, size: 0x8, addend: 0x0, symName: _msConcatenate, symObjAddr: 0x1D0, symBinAddr: 0x100003A80, symSize: 0xC0 }
+  - { offsetInCU: 0x1D3, offset: 0x1D3, size: 0x8, addend: 0x0, symName: _msCompare, symObjAddr: 0x290, symBinAddr: 0x100003B40, symSize: 0xA0 }
+  - { offsetInCU: 0x225, offset: 0x225, size: 0x8, addend: 0x0, symName: _msCompareString, symObjAddr: 0x330, symBinAddr: 0x100003BE0, symSize: 0xA0 }
+  - { offsetInCU: 0x277, offset: 0x277, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3D0, symBinAddr: 0x100003C80, symSize: 0x179 }
+...

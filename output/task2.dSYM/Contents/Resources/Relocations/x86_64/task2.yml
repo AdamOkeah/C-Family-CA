@@ -1,0 +1,8 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     '/Users/AdamO/C Family CA/output/task2'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _printFileBackwards, symObjAddr: 0x0, symBinAddr: 0x100003DF0, symSize: 0x140 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _printFileBackwards, symObjAddr: 0x0, symBinAddr: 0x100003DF0, symSize: 0x140 }
+  - { offsetInCU: 0xD6, offset: 0xD6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x140, symBinAddr: 0x100003F30, symSize: 0x2C }
+...
